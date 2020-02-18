@@ -20,6 +20,11 @@ NS_ASSUME_NONNULL_BEGIN
                         hourlyRate:(double)hourlyRate
                        hoursWorked:(int)hoursWorked;
 
+- (void) updateTask:(CARTimedTask *)task
+         withClient:(NSString *)client
+            summary:(NSString *)summary
+         hourlyRate:(double)hourlyRate
+        hoursWorked:(int)hoursWorked;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -26,4 +26,15 @@
     CARTimedTask *task = [[CARTimedTask alloc] initWithClient:client summary:summary hourlyRate:hourlyRate hoursWorked:hoursWorked];
     [self.timedTasks addObject:task];
 }
+
+- (void) updateTask:(CARTimedTask *)task
+         withClient:(NSString *)client
+            summary:(NSString *)summary
+         hourlyRate:(double)hourlyRate
+        hoursWorked:(int)hoursWorked {
+    task.client = client;
+    task.summary = summary;
+    task.hourlyRate = hourlyRate;
+    task.hoursWorked = hoursWorked;
+}
 @end
