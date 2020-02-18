@@ -13,6 +13,7 @@
 		467FC84723F3738C00C15592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467FC84623F3738C00C15592 /* Assets.xcassets */; };
 		467FC84A23F3738C00C15592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467FC84823F3738C00C15592 /* LaunchScreen.storyboard */; };
 		467FC84D23F3738C00C15592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 467FC84C23F3738C00C15592 /* main.m */; };
+		6305E97D23FC84B2006AE3B6 /* CARTimedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6305E97C23FC84B2006AE3B6 /* CARTimedTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		467FC84923F3738C00C15592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		467FC84B23F3738C00C15592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		467FC84C23F3738C00C15592 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6305E97B23FC84B2006AE3B6 /* CARTimedTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CARTimedTask.h; sourceTree = "<group>"; };
+		6305E97C23FC84B2006AE3B6 /* CARTimedTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARTimedTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		467FC85B23F3768C00C15592 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6305E97B23FC84B2006AE3B6 /* CARTimedTask.h */,
+				6305E97C23FC84B2006AE3B6 /* CARTimedTask.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,8 +160,9 @@
 		467FC82F23F3738B00C15592 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CAR;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Lambda School";
+				ORGANIZATIONNAME = "Chad Rutherford";
 				TargetAttributes = {
 					467FC83623F3738B00C15592 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -200,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				467FC83C23F3738B00C15592 /* AppDelegate.m in Sources */,
+				6305E97D23FC84B2006AE3B6 /* CARTimedTask.m in Sources */,
 				467FC84D23F3738C00C15592 /* main.m in Sources */,
 				467FC83F23F3738B00C15592 /* SceneDelegate.m in Sources */,
 			);
