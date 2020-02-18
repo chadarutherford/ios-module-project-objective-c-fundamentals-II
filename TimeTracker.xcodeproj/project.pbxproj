@@ -58,10 +58,9 @@
 		467FC83923F3738B00C15592 /* TimeTracker */ = {
 			isa = PBXGroup;
 			children = (
-				467FC85D23F3784C00C15592 /* Model Controller */,
 				467FC85B23F3768C00C15592 /* Model */,
-				467FC85C23F376B400C15592 /* View Controller */,
-				467FC85423F373D300C15592 /* Storyboards */,
+				6359B27023FC7132007B3581 /* View */,
+				6359B27123FC7143007B3581 /* Controller */,
 				467FC85323F373C900C15592 /* Resources */,
 			);
 			path = TimeTracker;
@@ -101,14 +100,33 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = "View Controller";
+			name = "View Controller";
+			path = "../View Controller";
 			sourceTree = "<group>";
 		};
 		467FC85D23F3784C00C15592 /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Model Controller";
+			name = "Model Controller";
+			path = "../Model Controller";
+			sourceTree = "<group>";
+		};
+		6359B27023FC7132007B3581 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				467FC85423F373D300C15592 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6359B27123FC7143007B3581 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				467FC85D23F3784C00C15592 /* Model Controller */,
+				467FC85C23F376B400C15592 /* View Controller */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
