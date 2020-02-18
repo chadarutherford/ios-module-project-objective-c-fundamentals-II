@@ -15,6 +15,7 @@
 		467FC84D23F3738C00C15592 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 467FC84C23F3738C00C15592 /* main.m */; };
 		6305E97D23FC84B2006AE3B6 /* CARTimedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6305E97C23FC84B2006AE3B6 /* CARTimedTask.m */; };
 		6305E98023FC8990006AE3B6 /* CARTimedTaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6305E97F23FC8990006AE3B6 /* CARTimedTaskController.m */; };
+		6305E98323FC8C84006AE3B6 /* CARTimeTrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6305E98223FC8C84006AE3B6 /* CARTimeTrackerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		6305E97C23FC84B2006AE3B6 /* CARTimedTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CARTimedTask.m; sourceTree = "<group>"; };
 		6305E97E23FC8990006AE3B6 /* CARTimedTaskController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CARTimedTaskController.h; path = "TimeTracker/Controller/Model Controller/CARTimedTaskController.h"; sourceTree = SOURCE_ROOT; };
 		6305E97F23FC8990006AE3B6 /* CARTimedTaskController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CARTimedTaskController.m; path = "TimeTracker/Controller/Model Controller/CARTimedTaskController.m"; sourceTree = SOURCE_ROOT; };
+		6305E98123FC8C84006AE3B6 /* CARTimeTrackerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CARTimeTrackerViewController.h; path = "TimeTracker/Controller/View Controllers/CARTimeTrackerViewController.h"; sourceTree = SOURCE_ROOT; };
+		6305E98223FC8C84006AE3B6 /* CARTimeTrackerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CARTimeTrackerViewController.m; path = "TimeTracker/Controller/View Controllers/CARTimeTrackerViewController.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		467FC85C23F376B400C15592 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6305E98123FC8C84006AE3B6 /* CARTimeTrackerViewController.h */,
+				6305E98223FC8C84006AE3B6 /* CARTimeTrackerViewController.m */,
 			);
 			name = "View Controller";
 			path = "../View Controller";
@@ -215,6 +220,7 @@
 				467FC84D23F3738C00C15592 /* main.m in Sources */,
 				467FC83F23F3738B00C15592 /* SceneDelegate.m in Sources */,
 				6305E98023FC8990006AE3B6 /* CARTimedTaskController.m in Sources */,
+				6305E98323FC8C84006AE3B6 /* CARTimeTrackerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
